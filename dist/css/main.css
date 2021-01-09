@@ -27,7 +27,7 @@ Grey dark 3: #999
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: #777;
+  border-bottom: 2px solid #777;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +47,6 @@ Grey dark 3: #999
 
 .hotel-view {
   height: 80rem;
-  background-color: orangered;
   flex: 1;
 }
 
@@ -224,6 +223,31 @@ Grey dark 3: #999
   color: #ccc;
   text-align: center;
   padding: 2.5rem;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery__photo {
+  width: 100%;
+  display: block;
+}
+
+.overview {
+  display: flex;
+  border-bottom: 2px solid #777;
+}
+
+.overview__stars {
+  margin-right: auto;
+  background-color: blue;
+}
+
+.overview__icon-star, .overview__icon-location {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: #eb2f64;
 }
 
 * {

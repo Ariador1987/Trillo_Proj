@@ -200,13 +200,19 @@
 .overview {
     display: flex;
     border-bottom: 2px solid $color-grey-dark-2;
+    align-items: center;
 
     &__heading {
+        font-size: 2.25rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 1.5rem 3rem;
     }
 
     &__stars {
         margin-right: auto;
-        background-color: blue;
+        display: flex;
     }
 
     &__icon-star,
@@ -217,6 +223,13 @@
     }
 
     &__location {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon-location {
+        margin-right: 0.5rem;
     }
 
     &__rating {
